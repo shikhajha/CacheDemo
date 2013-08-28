@@ -7,5 +7,6 @@ public interface CacheService<K,V> {
 	public void put(V v);
 	public boolean remove(K k);
 	public void shutDown();
+	
 	public void flush();
 }
